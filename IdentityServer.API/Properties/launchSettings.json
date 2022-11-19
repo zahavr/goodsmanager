@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "IdentityServer.Web": {
+    "IdentityServer.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

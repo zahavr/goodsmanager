@@ -4,10 +4,12 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>Modules.GoodsManager.Common</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Modules.GoodsManager.Common.Abstractions\Modules.GoodsManager.Common.Abstractions.csproj" />
+      <PackageReference Include="JetBrains.Annotations" Version="2022.3.1" />
+      <PackageReference Include="Validation" Version="2.6.13-beta" />
     </ItemGroup>
 
 </Project>
