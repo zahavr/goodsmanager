@@ -47,6 +47,7 @@ public static class Config
                 Claims = new List<Claim>
                 {
                     new Claim("given_name", "Mick"),
+                    new Claim("given_name", "Mick"),
                     new Claim("family_name", "Mining"),
                     new Claim("address", "Sunny Street 4"),
                     new Claim("role", "Admin")

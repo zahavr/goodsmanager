@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Modules.GoodsManager.Entities\Modules.GoodsManager.Entities.csproj" />
+    </ItemGroup>
+
 </Project>

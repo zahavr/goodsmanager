@@ -17,7 +17,7 @@ public class Category :
     
     public long Id { get; }
     
-    public DateTime UpdatedAt { get; }
+    public DateTime UpdatedAt { get; private set; }
     
     public DateTime CreatedAt { get; }
     
@@ -26,6 +26,6 @@ public class Category :
     
     public void UpdateDateTo(DateTime date)
     {
-        
+        UpdatedAt = date;
     }
 }
